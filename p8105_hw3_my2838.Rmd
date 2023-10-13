@@ -3,17 +3,18 @@ title: "P8105_hw3_my2838"
 output: github_document
 ---
 
-```{r, include=FALSE}
+```{r}
 library(tidyverse)
 library(ggplot2)
 library(dplyr)
-
-library(p8105.datasets)
-data("instacart")
-
 ```
 
 # Problem 1
+
+```{r}
+library(p8105.datasets)
+data("instacart")
+```
 
 *How many aisles are there, and which aisles are the most items ordered from?*
 
